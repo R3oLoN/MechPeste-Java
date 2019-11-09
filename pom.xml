@@ -11,6 +11,14 @@
     </properties>
     <dependencies>
     <dependency>
+        <groupId>krpc.client</groupId>
+        <artifactId>krpc-java</artifactId>
+        <version>0.4.8</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/src/main/resources/libs/krpc-java-0.4.8.jar</systemPath>
+    </dependency>
+
+    <dependency>
         <groupId>com.google.protobuf</groupId>
         <artifactId>protobuf-java</artifactId>
         <version>3.10.0</version>
